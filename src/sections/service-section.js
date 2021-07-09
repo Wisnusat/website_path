@@ -1,3 +1,4 @@
+/** @jsxRuntime classic */
 import React, { useState } from 'react';
 /** @jsx jsx */
 import {
