@@ -2,12 +2,13 @@
 /** @jsx jsx */
 import { jsx } from 'theme-ui';
 import { Container, Grid } from 'theme-ui';
-import SectionHeader from 'components/section-header';
+import SectionHeader from 'components/section-header-2';
 import FeatureCard from 'components/feature-card.js';
 import Performance from 'assets/feature/performance.svg';
 import Partnership from 'assets/feature/support.svg';
 import Subscription from 'assets/feature/subscription.svg';
 import Support from 'assets/feature/partnership.svg';
+import PatternBG from 'assets/patternBG.png';
 
 const data = [
   {
@@ -46,10 +47,10 @@ const data = [
 
 export default function Feature() {
   return (
-    <section sx={{ variant: 'section.feature' }}>
+    <section sx={styles.feature}>
       <Container>
         <SectionHeader
-          slogan="Why you choose our services?"
+          slogan="^"
           title="Founded by experts in medical and biotechnology field"
         />
 
@@ -70,6 +71,16 @@ export default function Feature() {
 }
 
 const styles = {
+  feature: {
+      pb: [8, null, 9, null, null, 10, null, '170px'],
+      backgroundColor: 'fourth',
+      backgroundImage: `url(${PatternBG})`,
+      backgroundRepeat: `no-repeat`,
+      backgroundPosition: 'center center',
+      backgroundSize: 'cover',
+      position: 'relative',
+      mb: 6,
+  },
   grid: {
     pt: [0, null, null, null, null, null, 2],
     px: [5, 6, 0, null, 7, 8, 7],

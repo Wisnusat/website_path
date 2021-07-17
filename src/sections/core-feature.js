@@ -12,7 +12,7 @@ const data = {
   title: 'Be a part of our remarkable journey',
   description:
     'Our people are the heart of our company. Join us to discover new opportunities that will improve your skills and help us create the best Biomedical and AI solutions!',
-  btnName: 'Get Started',
+  btnName: 'Join Now',
   btnURL: '#',
 };
 

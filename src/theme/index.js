@@ -12,6 +12,8 @@ export default {
     primary: '#6C368C', // primary button and link color
     secondary: '#6C368C',
     third: '#FE8200', // secondary color - can be used for hover states
+    fourth: '#FFC180',
+    fifth: '#D9D9D9',
     muted: '#E4E4E4', // muted color
     accent: '#609', // a contrast color for emphasizing UI
 
@@ -235,7 +237,7 @@ export default {
       alignItems: 'center',
     cursor: 'pointer',
     display: 'inline-flex',
-    svg: {
+    png: {
       height: 33,
       width: 200,
     },

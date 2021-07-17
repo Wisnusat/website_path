@@ -22,7 +22,7 @@ export default function Header({ className }) {
                 to={path}
                 spy={true}
                 smooth={true}
-                offset={-70}
+                offset={-120}
                 duration={500}
                 key={i}
               >
@@ -31,6 +31,12 @@ export default function Header({ className }) {
             ))}
           </Flex>
 
+         <Link to={'contact'}
+         spy={true}
+         smooth={true}
+         offset={-120}
+         duration={500}
+         >     
           <Button
             className="donate__btn"
             variant="third"
@@ -38,6 +44,7 @@ export default function Header({ className }) {
           >
             Contact Us
           </Button>
+          </Link>
 
           <MobileDrawer />
         </Container>

@@ -15,6 +15,8 @@ import TeamSection from '../sections/team-section';
 import TestimonialCard from '../sections/testimonial';
 import BlogSection from '../sections/blog-section';
 import Subscribe from '../sections/subscribe';
+import Milestone from 'sections/milestone';
+import ContactUs from 'sections/contact';
 
 export default function IndexPage() {
   return (
@@ -29,9 +31,11 @@ export default function IndexPage() {
           {/* <WorkFlow /> */}
           {/* <Package /> */}
           <TeamSection />
+          {/* <Milestone /> */}
           {/* <TestimonialCard /> */}
           <BlogSection />
           <CoreFeature />
+          <ContactUs />
           {/* <Subscribe /> */}
         </Layout>
       </StickyProvider>

@@ -2,6 +2,7 @@
 /** @jsx jsx */
 import { jsx, Image } from 'theme-ui';
 import { Link } from 'components/link';
+import Logopath from 'assets/logo-path-alt.png'
 
 export default function Logo({ src, ...rest }) {
   return (
@@ -15,7 +16,13 @@ export default function Logo({ src, ...rest }) {
       }}
       {...rest}
     >
-      <h1>Path.ti</h1>
+      {/* <h1>Path.ti</h1> */}
+      <Image
+        width="130"
+        // height="00"
+        src={Logopath}
+        alt="startup landing logo"
+      />
     </Link>
   );
 }
