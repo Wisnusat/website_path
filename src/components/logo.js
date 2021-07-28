@@ -16,13 +16,15 @@ export default function Logo({ src, ...rest }) {
       }}
       {...rest}
     >
-      {/* <h1>Path.ti</h1> */}
       <Image
         width="130"
-        // height="00"
+        height="90"
         src={Logopath}
         alt="startup landing logo"
       />
+       <h1 sx={{
+         ml: -2,
+       }}>Path.ti</h1>
     </Link>
   );
 }

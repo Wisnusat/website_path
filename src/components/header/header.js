@@ -120,5 +120,6 @@ const styles = {
         color: 'third',
       },
     },
+    ml: 10,
   },
 };

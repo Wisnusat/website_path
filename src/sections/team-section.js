@@ -19,7 +19,7 @@ const data = [
     imgSrc: Member1,
     altText: 'Barlian Henryranu',
     title: 'Barlian Henryranu',
-    designation: 'CEO and Founder',
+    designation: 'S3 Bio-informatics & Sytem designer',
     socialProfile: [
       {
         id: 1,
@@ -46,7 +46,7 @@ const data = [
     imgSrc: Member2,
     altText: 'Edita Rosana ',
     title: 'Edita Rosana ',
-    designation: 'Founder',
+    designation: 'S3 Bio-informatics & Sytem designer',
     socialProfile: [
       {
         id: 1,
@@ -73,7 +73,7 @@ const data = [
     imgSrc: Member3,
     altText: 'Caesaredi Rama',
     title: 'Caesaredi Rama',
-    designation: 'Founder',
+    designation: '#',
     socialProfile: [
       {
         id: 1,
@@ -100,7 +100,7 @@ const data = [
     imgSrc: Member4,
     altText: 'dr. Mustika Dian',
     title: 'dr. Mustika Dian',
-    designation: 'Founder',
+    designation: '#',
     socialProfile: [
       {
         id: 1,
@@ -127,7 +127,7 @@ const data = [
     imgSrc: Member2,
     altText: 'Intan Purbowati',
     title: 'Intan Purbowati',
-    designation: 'Founder',
+    designation: '#',
     socialProfile: [
       {
         id: 1,
